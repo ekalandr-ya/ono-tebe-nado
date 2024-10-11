@@ -183,7 +183,7 @@ header {
   flex-direction: row;
   min-width: 1052px;
   min-height: 563px;
-  gap: 25px;
+  justify-content: space-evenly
 }  
 
 .lots__card-list-item {
@@ -306,6 +306,7 @@ header {
   color: #000;
   width: 1000px;
   height: 98px;
+  margin-bottom: 88px;
 }
 
 .footer__address {
@@ -324,8 +325,6 @@ header {
   align-items: center;
   margin-left: 185px;
   margin-top: 90px;
-  width: 149px;
-  height: 64px;  
   list-style: none;
 }
 
