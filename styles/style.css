@@ -179,9 +179,12 @@ header {
 .lots__card-list {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   min-width: 1052px;
   min-height: 563px;
-  justify-content: space-evenly
+  justify-content: flex-start;
+  margin: 25px;
+  gap: 25px;
 }  
 
 .lots__card-list-item {
@@ -240,7 +243,7 @@ header {
   font-size: 20px;
   color: #000;
   text-decoration: underline;
-  padding-top: 31px;
+  padding-top: 5px;
   padding-left: 65px;
 }
 
@@ -299,7 +302,7 @@ header {
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 183px;
   margin-left: 50px;
-  margin-bottom: 96px;
+  margin-bottom: 116px;
   font-family: "Raleway";
   font-weight: 400;
   font-size: 18px;
