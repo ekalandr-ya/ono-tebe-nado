@@ -23,7 +23,6 @@ header {
 .header__menu {
   display: flex;
   width: 430px;
-  height: 22px;
   list-style: circle;
   gap: 28px;
   letter-spacing: 0.02em;
@@ -304,7 +303,7 @@ header {
   margin-top: 180px;
   margin-left: 50px;
   margin-bottom: 88px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: #000;
